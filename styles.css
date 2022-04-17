@@ -1,0 +1,110 @@
+:root {
+  --padding: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  line-height: 1.25;
+  background-color: hsl(204, 43%, 93%);
+  color: hsl(0, 0%, 100%);
+  letter-spacing: -0.038rem;
+}
+.subscription {
+  margin: 4.5rem auto; /*72px*/
+  width: 83%;
+  max-width: 635px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.header {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(218, 22%, 67%);
+  font-size: 0.9375rem; /* 15px*/
+  padding: 2rem var(--padding);
+}
+.header h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1.5rem;
+}
+.strong {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.par {
+  line-height: 1.74;
+}
+.split {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+.monthly {
+  background-color: hsl(179, 62%, 43%);
+  padding: var(--padding);
+}
+.monthly h2, .why-us h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.price {
+  font-weight: 700;
+  font-size: 2rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+.call-to-action:link, .call-to-action:visited,
+.call-to-action:hover, .call-to-action:active {
+  display: block;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.3);
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+.why-us {
+  background-color: hsl(179, 52%, 53%);
+  font-size: 0.9375rem;
+  padding: var(--padding);
+}
+.why-us ul {
+  list-style-type: none;
+  line-height: 1.35;
+}
+
+@media only screen and (min-width: 603px) {
+  .container {
+    height: 100vh;
+    display: grid;
+    position: relative;
+  }
+  .subscription {
+    margin: auto;
+  }
+  footer {
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+}
+@media only screen and (min-width: 715px) {
+  :root {
+    --padding: 2.5rem;
+  }
+  .call-to-action:hover, .call-to-action:active {
+    background-color: hsl(71, 73%, 44%);
+  }
+}
