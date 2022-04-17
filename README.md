@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-component-with-css-grid-HkS_-CKEq)
 - Live Site URL: [Add live site URL here](https://cla91.github.io/single-price-grid-component-master/)
 
 ## My process
