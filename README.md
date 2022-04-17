@@ -48,4 +48,4 @@ I used css variables that I don't use often and I probably should.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/cla91)
+- Frontend Mentor - [@cla91](https://www.frontendmentor.io/profile/cla91)
